@@ -35,10 +35,9 @@ export default function LandingPage() {
                 </h1>
 
                 <form role="search" onSubmit={handleSubmit} className="absolute left-1/2 top-[22%] -translate-x-1/2 w-[70%] max-w-3xl">
-                  <label htmlFor="prof-search">Search professors</label>
                   <div className="flex">
-                    <input name="name" type="text" placeholder="Enter professor name..." className="flex-1 px-6 bg-white py-3 border rounded-l-lg text-black" />
-                    <button type="submit" className="flex items-center justify-center px-4 py-3 bg-[#39302B] rounded-r-lg border border-gray-300 border-l-0">
+                    <input name="name" type="text" placeholder="Enter professor name..." className="flex-1 px-6 bg-white py-3 border rounded-l-xl text-black" />
+                    <button type="submit" className="flex items-center justify-center px-4 py-3 bg-[#39302B] rounded-r-xl border border-gray-300 border-l-0">
                       <img src={search} className="h-5 w-5 object-contain" alt="search"/>
                     </button>
                   </div>
